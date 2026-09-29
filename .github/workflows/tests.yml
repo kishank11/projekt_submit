@@ -1,0 +1,24 @@
+name: tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgis:
+        image: postgis/postgis:16-3.4
+        env:
+          POSTGRES_USER: iris
+          POSTGRES_PASSWORD: iris
+          POSTGRES_DB: iris
+        ports: ["5433:5432"]
+        options: >-
+          --health-cmd "pg_isready -U iris -d iris"
+          --health-interval 2s --health-retries 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv run pytest
+        env:
+          IRIS_DATABASE_URL: postgresql://iris:iris@localhost:5433/iris
