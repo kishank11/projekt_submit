@@ -1,0 +1,38 @@
+[project]
+name = "iris-ingest"
+version = "0.1.0"
+description = "Reusable source adapter contract for Project IRIS ingestion"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "shapely>=2.0",
+]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.1"]
+
+[project.scripts]
+iris-ingest = "iris_ingest.cli:main"
+
+[project.entry-points."iris_ingest.adapters"]
+# Third-party packages can register adapters here without touching this repo.
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "psycopg[binary]>=3.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/iris_ingest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "postgis: needs a running PostGIS (set IRIS_DATABASE_URL)",
+]
