@@ -14,9 +14,6 @@ postgres = ["psycopg[binary]>=3.1"]
 [project.scripts]
 iris-ingest = "iris_ingest.cli:main"
 
-[project.entry-points."iris_ingest.adapters"]
-# Third-party packages can register adapters here without touching this repo.
-
 [dependency-groups]
 dev = [
     "pytest>=8.0",
