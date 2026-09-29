@@ -1,0 +1,225 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "W-01",
+        "country": "AT",
+        "state": "9",
+        "valid_from": "2026-07-11",
+        "land_use": "brownfield",
+        "area_m2": 950.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.310000000000002,
+              48.2
+            ],
+            [
+              16.312,
+              48.2
+            ],
+            [
+              16.312,
+              48.202000000000005
+            ],
+            [
+              16.310000000000002,
+              48.202000000000005
+            ],
+            [
+              16.310000000000002,
+              48.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "W-02",
+        "country": "AT",
+        "state": "9",
+        "valid_from": "2026-07-12",
+        "land_use": "grassland",
+        "area_m2": 1000.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.32,
+              48.2
+            ],
+            [
+              16.322,
+              48.2
+            ],
+            [
+              16.322,
+              48.202000000000005
+            ],
+            [
+              16.32,
+              48.202000000000005
+            ],
+            [
+              16.32,
+              48.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "W-03",
+        "country": "AT",
+        "state": "9",
+        "valid_from": "2026-07-13",
+        "land_use": "brownfield",
+        "area_m2": 1050.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.330000000000002,
+              48.2
+            ],
+            [
+              16.332,
+              48.2
+            ],
+            [
+              16.332,
+              48.202000000000005
+            ],
+            [
+              16.330000000000002,
+              48.202000000000005
+            ],
+            [
+              16.330000000000002,
+              48.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "W-04",
+        "country": "AT",
+        "state": "9",
+        "valid_from": "2026-07-14",
+        "land_use": "grassland",
+        "area_m2": 1100.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.34,
+              48.2
+            ],
+            [
+              16.342,
+              48.2
+            ],
+            [
+              16.342,
+              48.202000000000005
+            ],
+            [
+              16.34,
+              48.202000000000005
+            ],
+            [
+              16.34,
+              48.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "W-05",
+        "country": "AT",
+        "state": "9",
+        "valid_from": "2026-07-15",
+        "land_use": "brownfield",
+        "area_m2": 1150.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.35,
+              48.2
+            ],
+            [
+              16.352,
+              48.2
+            ],
+            [
+              16.352,
+              48.202000000000005
+            ],
+            [
+              16.35,
+              48.202000000000005
+            ],
+            [
+              16.35,
+              48.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "W-06",
+        "country": null,
+        "state": "9",
+        "valid_from": "2026-07-20",
+        "land_use": "arable",
+        "area_m2": 800.0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4,
+          48.21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "parcel_id": "W-07",
+        "country": "AT",
+        "state": "9",
+        "valid_from": "2026-07-21",
+        "land_use": "arable",
+        "area_m2": 800.0
+      },
+      "geometry": null
+    }
+  ]
+}
